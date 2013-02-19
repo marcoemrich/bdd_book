@@ -1,0 +1,3 @@
+var Stock = {
+    removeProduct: function() {}
+};
