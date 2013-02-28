@@ -34,7 +34,7 @@ describe('Cart', function() {
 
         it('should return the grossPrice of a single product in the cart', function() {
             var cart = Cart.create();
-            product = {grossPrice: function() {return 10;}};
+            var product = {grossPrice: function() {return 10;}};
             //spyOn(product, 'grossPrice').andReturn(10);
 
             cart.add(product);

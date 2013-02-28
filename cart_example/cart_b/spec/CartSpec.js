@@ -33,7 +33,7 @@ describe('Cart', function(){
         });
 
         it('should return the grossPrice of a single product in the cart', function() {
-            product = {grossPrice: function() {return 10;}};
+            var product = {grossPrice: function() {return 10;}};
             cart.add(product);
             expect(cart.grossPriceSum()).toEqual(10);
         });
