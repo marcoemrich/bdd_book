@@ -13,8 +13,5 @@ describe("A Cart with several different products", function() {
         expect(cart.grossPriceSum()).toEqual(100 * 1.20 + 10 * 1.07);
     });
 
-//      it('should reduce the lagerbestand of the products on checkout');
-     //use Mocks to check the reduction to a Lagerbestands-Object with
-     // something like remove('Secrets of HTML');
 });
 
