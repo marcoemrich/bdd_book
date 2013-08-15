@@ -1,4 +1,4 @@
 bdd_book
 ========
 
-This is the example code for my upcoming book about starting with BDD in JavaScript - published by Developers.Press (S&amp;S media)
+This is the example code for my book [Behaviour Driven Development with JavaScript  (Developer Press)](http://developerpress.com/en/behaviour-driven-development-javascript-1)
